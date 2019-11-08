@@ -1,0 +1,14 @@
+itImg = new Image(143,83)
+itImg.src = "itimage1.jpg"
+cw = new Image(143,83)
+cw.src = "cow.jpg"
+damCol = new Image(143,83)
+damCol.src = "damutCollage.jpg"
+work = new Image(143,83)
+work.src = "work.jpg"
+sol = new Image(143,83)
+sol.src = "sola.jpg"
+cg = new Image(143,83)
+cg.src = "cage.jpg"
+cl = new Image(143,83)
+cl.src = "club.jpg"

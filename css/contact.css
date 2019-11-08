@@ -1,0 +1,76 @@
+/* 
+    Document   : contact
+    Created on : Jan 06, 2013, 12:43:14 AM
+    Author     : damut
+    Description:
+        layout of contact template of zibs
+*/
+
+root { 
+    display: block;
+}
+/*page style*/
+body{background: lightgray; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; min-width: 900px}
+div{background: white; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-left: auto; margin-right: auto; padding-top: 0px; margin-top: 0px; width: 1000px; min-width: 700px}
+
+/*head section*/
+.oneCont{background-color: grey; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em;
+       width: 1000px; height: 70px; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 0px; border-radius: 0px;
+       border: 0px; border-color: palegreen; border-style: solid; text-justify: auto}
+
+/*navigation style*/		
+.toc{background: none; color: white;  font-family: "verdana","helvetica",sans-serif; font-size: 0.9em; text-decoration: none; padding-left: 2px;
+     margin-right: 0px; margin-left: 48px; margin-top: 2px; width: 360px; height: 20px; border-radius: 0px; top: 45px; position: absolute;}
+/*links to pages style*/
+a:link.pages{color: white; text-decoration: none; padding-bottom: 2px; padding-right: 2px; padding-left: 2px}
+a:visited.pages{font-weight: normal; color: blue; padding-bottom: 2px; padding-right: 2px; padding-left: 2px}
+a:active.pages{color: lightblue; text-decoration: none; padding-bottom: 2px; padding-right: 2px; padding-left: 2px}
+a:hover.pages{color: lightblue; text-decoration: none; padding: 0px; padding-bottom: 2px; padding-right: 2px; padding-left: 2px}
+/*privacy section*/
+.copy{background: none; color: white; font-size: .9em; padding-bottom: 0px;  padding-top: 0px; margin-top: 5px; margin-left: 380px;
+      margin-right: 0px; float: left; min-width: 200px; max-width: 275px; height: 10px; text-decoration: none;  position: absolute; top: 8px;
+	  margin-left: 690px}
+.legal{text-decoration: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: .9em; margin-left: 0px; margin-right: 0px;
+        padding-left: 0px; padding-right: 2px;}
+/*search component style*/
+.searchme{background: white; color: gray; font-size: .9em; padding-bottom: 0px; margin-right: 0px; padding-top: 0px; min-width: 70px; max-width: 140px; height: 20px; border: 1px;
+        border-radius: 3px; border-color: grey; padding-left: 2px; padding-right: 2px; border-style: solid; position: absolute; left: 200px; top: 10px}
+.searchDiv{background: none; color: gray; font-size: .9em; padding-bottom: 0px; margin-left: 550px; margin-right: 0px; padding-top: 0px; min-width: 150px;
+        max-width: 200px; height: 20px; border-radius: 5px; padding-left: 0px; padding-right: 0px; position: absolute; top: 35px}
+.buttons{background-color: lightgrey; color: white; font-family: "helvetica", "verdana",sans-serif; font-size: 1.0em; text-align: center;  font-weight: bold;
+        padding-left: 2px; padding-right: 2px; border-radius: 3px; position: absolute; top: 10px; margin-left: 341px}
+
+/*image section*/		
+.twoCont{background: none; color: gray;  font-family: "verdana","helvetica", sans-serif; font-size: .9em; min-width: 700px; max-width: 890px; height: 170px; margin-left: auto;
+         margin-right: auto; padding-left: 5px; padding-right: 5px; margin-top: 1px; padding-top: 0px; text-justify: auto}
+.image{ padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-top: 5px}	   
+		
+/*logo head or banner*/
+.damut{width: 1000px; height: 127px; background-image: url(../icons/zibshead.jpg); margin-top: 100px; margin-left: auto; margin-right: auto; border-radius: 0px;}
+
+/*page content style*/
+.grey{color: white; font-family: "helvetica", "verdana", sans-serif; font-size: 1.5em; text-align: left; margin-top: 10px; margin-left: 2px; margin-right: 2px; padding-left: 15px;
+      padding-right: 15px; text-justify:auto; border-radius: 0px}
+.white{color: grey; font-family: "helvetica", "verdana", sans-serif; font-size: 1.5em; text-align: left; margin-top: 10px; margin-left: 2px; margin-right: 2px; padding-left: 15px;
+        padding-right: 15px; text-justify:auto; border-radius: 0px}
+.lightblue{color: white; font-family: "helvetica", "verdana", sans-serif; font-size: 1.2em; text-align: left; margin-top: 5px; margin-left: 2px; margin-right: 2px; padding-left: 5px;
+           padding-right: 10px; text-justify:auto; border-radius: 0px}
+.watsap{background-color: none; color: grey; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 0px; margin-left: 15px;
+       min-width: 700px; max-width: 930px; height: 450px; margin-right: 15px; padding-left: 2px; padding-right: 2px; border: 0px; border-radius: 3px; 
+	   border-color: grey; border-left: 0px; border-style: solid; text-justify: auto}
+.tips{background-color: grey; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 0px; margin-left: 15px;
+       min-width: 700px; max-width: 930px; height: 450px; margin-right: 15px; padding-left: 2px; padding-right: 2px; border: 0px; border-radius: 3px; 
+	   border-color: grey; border-left: 0px; border-style: solid; text-justify: auto}
+p{ color: gray; font-family: "helvetica", "verdana", sans-serif; font-size: 0.9em; text-align: left; margin-top: 20px; margin-left: 5px; margin-right: 5px; text-justify:auto}
+
+/*social media style*/
+.social{background: none; color: gray; font-size: .8em; padding-bottom: 0px; margin-left: 820px;  margin-top: 10px; margin-right: 0px;             
+        padding-top: 0px; min-width: 120px; max-width: 160px; height: 20px; border-radius: 0px; padding-left: 0px; 
+        padding-right: 2px; border-radius: 0px}
+.ads{font-family: "verdana","helvetica", sans-serif; font-size: .9em; padding-top: 0px; width: 25px; top: 200px; left: 540px; height: 25px;}
+
+/*copyright div style*/
+.copyright{background: grey; text-decoration: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: .9em; margin-left: auto; margin-right: auto;
+        margin-top: 25px; padding-left: 0px; padding-right: 0px; width: 1000px; height: 22px; text-align: center;}
+
+
